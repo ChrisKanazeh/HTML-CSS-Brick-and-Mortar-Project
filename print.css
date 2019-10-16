@@ -1,0 +1,158 @@
+/*page container*/
+* {margin:0;padding:0}
+
+html {min-width:1000px; height:100%}
+/*body*/
+body {
+	background-color: lightcyan;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: black;
+	
+}
+
+/*navigation*/
+ul{
+	list-style:upper-greek;
+}
+/*position*/
+.site-nav {
+	position:absolute;
+	left:16px;
+	top:35px;
+	overflow:hidden
+}
+/*hover*/
+.site-nav li a:hover, .site-nav li a.act {
+	color:#89b700
+}
+/*default link*/
+.site-nav a:link{
+	color: red
+}
+/*visited link*/
+.site-nav a:visited{
+	color: green
+}
+
+/*h1 heading*/
+h1 {
+	background-color: #b0c4de;
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif; 
+	color:#625D5D;
+	font-size:32px;
+	text-transform:uppercase;
+	margin-bottom:20px}
+/*h2 heding*/
+h2 {
+	color:#837E7C;
+	font-size:30px;
+	text-transform:uppercase;
+	margin-bottom:20px
+}
+/*border*/
+ul {
+	border: 1px solid black;
+}
+/*table width 50%*/
+table {
+    width:50%;
+}
+/*set table border*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+/*pad and align text*/
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+/*table 1 styles*/
+
+/*every even row is a different color*/
+table#t01 tr:nth-child(even) {
+    background-color: #808080;
+}
+/*every odd row is a different color*/
+table#t01 tr:nth-child(odd) {
+   background-color:#B0B0B0;
+}
+/*header row background is black and text is white*/
+table#t01 th	{
+    background-color: brown;
+    color: white;
+}
+/*table 2 styles*/
+
+/*every even row is a different color*/
+table#t02 tr:nth-child(even) {
+    background-color: #808080;
+}
+/*every odd row is a different color*/
+table#t02 tr:nth-child(odd) {
+   background-color:#B0B0B0;
+}
+/*header row background is black and text is white*/
+table#t02 th	{
+    background-color: brown;
+    color: white;
+}
+/*form styles*/
+form {
+	background: #00FF66;
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-style-1 h1{
+	background: #43D1AF;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+/*form textarea styles*/
+.form-style-1 textarea{
+		width:350px;
+		height:100px;
+}
+
+.form-style-1 button{
+	background-color: green;
+	color:#ffffff;
+	height: 40px;
+	width: 100px;
+}
+
+/* text shadow on headers*/
+h1 {
+	text-shadow: 2px 2px #ff0000;
+}
+
+/* box shadow on images*/
+img {
+	-webkit-box-shadow: 6px 6px 6px #7c7c7c;
+	box-shadow: 6px 6px 6px #7c7c7c;
+}
+
+/*rotate images 3 degrees*/
+img {
+	-webkit-transform: rotate(3deg);
+	transform: rotate(3deg);
+}
+
+/*color gradient on headers*/
+h1 {
+	background: -webkit-linear-gradient(#eee, #333);
+}
+
+/*creates border on images*/
+img {
+	padding:1px;
+	border:1px solid #021a40;
+}
